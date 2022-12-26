@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnArrayAdaptor;
     Button btnCustomAdaptor;
+    Button btnFavourites;
 
 
     @Override
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnArrayAdaptor = findViewById(R.id.btnarrayadaptor);
         btnCustomAdaptor = findViewById(R.id.btncustomadaptor);
+
+
         btnCustomAdaptor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -10,12 +10,21 @@
     <Button
         android:id="@+id/btnarrayadaptor"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Array Adaptor" />
+        android:layout_height="85dp"
+        android:text="What Made Of" />
 
     <Button
         android:id="@+id/btncustomadaptor"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BtnCustomAdaptor" />
+        android:layout_height="85dp"
+        android:text="Kitchens" />
+
+
+    <Button
+        android:id="@+id/btnfavourites"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="favourites" />
+
+
 </LinearLayout>

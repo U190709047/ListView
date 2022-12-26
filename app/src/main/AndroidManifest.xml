@@ -8,25 +8,25 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MakeOwnFood"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ListView"
         tools:targetApi="31">
         <activity
-            android:name=".AnimalAdapter"
+            android:name="com.example.listview.DishesAdapter"
             android:exported="false" />
         <activity
-            android:name=".Animal"
+            android:name="com.example.listview.Dishes"
             android:exported="false" />
         <activity
-            android:name=".CustomAdapterActivity"
+            android:name="com.example.listview.CustomAdapterActivity"
             android:exported="false" />
         <activity
-            android:name=".ArrayAdaptorActivity"
+            android:name="com.example.listview.ArrayAdaptorActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.listview.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
